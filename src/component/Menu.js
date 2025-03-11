@@ -14,6 +14,7 @@ export default function Menu() {
                 transition={{duration:1.5, delay:0.5}}
                 className='text-amber-900 text-4xl font-cursive font-bold'>Best coffe for you</motion.h1>
             </div>
+{/* menu card */}
 <motion.div
 initial={{opacity:0, y:100}}
 whileInView={{opacity:1 , y:0}}
@@ -23,6 +24,7 @@ className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-
     {MenuDetails.map((menu)=>(
         <MenuData key={menu.id} menu={menu}/>
     ))}
+
 </motion.div>
         </div>
     
