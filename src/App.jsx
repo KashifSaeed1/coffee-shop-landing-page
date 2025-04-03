@@ -17,10 +17,8 @@ function App() {
       <AboutUs />
       <Testmoinals />
       <Contact />
-      {/* <Footer/> */}
       <Router>
         <div className="App">
-          {/* Other components */}
           <Footer />
         </div>
       </Router>

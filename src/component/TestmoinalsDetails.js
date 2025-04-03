@@ -2,7 +2,7 @@ export const TestimonialDetails = [
   {
     id: 1,
     name: "Kashif Saeed",
-    text: "The aroma, the taste, and the cozy ambiance—this café has become my go-to spot for the perfect coffee experience. Highly recommended!",
+    text: "The aroma, and the cozy ambiance—this café has become my go-to spot for the perfect coffee experience. Highly recommended!",
     img: "https://picsum.photos/101/101",
   },
   {
