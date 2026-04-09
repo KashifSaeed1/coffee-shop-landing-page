@@ -38,9 +38,9 @@ export default function Testmoinals() {
         ]
       };
   return (
-    <div id='testimonial' className='py-20'>
+    <div id='testimonial' className='py-22'>
 <div className='max-w-7xl mx-auto'>
-    <div className='mb-10'>
+    <div className='mb-12'>
             <motion.h1
             initial={{opacity:0, y:100}}
             whileInView={{opacity:1, y:0}}
